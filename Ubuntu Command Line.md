@@ -54,7 +54,7 @@ command line :
 16. echo "mahasiswa UNSRI" >> file3.txt (  menambahkan teks "mahasiswa UNSRI" ke akhir file file3.txt )
 
 
-17 head file3.txt ( membaca dan menampilkan bagian awal dari "file3.txt: )
+17. head file3.txt ( membaca dan menampilkan bagian awal dari "file3.txt: )
 
 
 18. tail file3.txt ( membaca dan menampilkan bagian akhir dari "file3.txt" )
@@ -110,10 +110,10 @@ command line :
 33. find . -name "*.txt ( mencari semua file dengan ekstensi ".txt" )
 
 
-34. locate file1.txt
+34. locate file1.txt ( mencari lokasi file bernama file1.txt di sistem )
 
 
-35. grep -r "ini"
+35. grep -r "ini" (  mencari teks "ini" dalam file dan direktori di seluruh sistem )
 
 
 36. tar -cvf archive.tar file1.txt file3.txt ( membuat arsip "archive.tar" yang berisi file1.txt file3.txt )
@@ -128,10 +128,10 @@ command line :
 39. gunzip archive.tar.gz ( mengestrak "archive.tar.gz" kembali menjadi "archive.tar." )
 
 
-40. zip archive, zip file1.txt file3.txt (
+40. zip archive, zip file1.txt file3.txt ( mengompresi (mengarsipkan) "file1.txt" dan "file3.txt" )
 
 
-41. unzip archive.zip
+41. unzip archive.zip ( mengekstrak file yang ada di dalam arsip "archive.zip" ke direktori saat ini )
 
 
 ![5](https://github.com/user-attachments/assets/18820858-5aa0-49a2-bdde-2b5e33e77f9c)
@@ -146,28 +146,28 @@ command line :
 ![7](https://github.com/user-attachments/assets/45d08807-91b3-4932-8f72-7951bbfc799a)
 
 
-44. swapon --show
+44. swapon --show ( menampilkan ruang swap )
 
 
-45. ip add
+45. ip add ( melihat ip address )
 
 
 46. ifconfig ( Menampilkan informasi jaringan )
 
 
-47. sudo adduser guest 
+47. sudo adduser guest ( menambahkan user baru yakni "guest" )
 
 
 ![8](https://github.com/user-attachments/assets/8e9cdb70-0980-4dc3-a21b-1e139c886542)
 
 
-48. lsb_release -a
+48. lsb_release -a ( melihat versi Ubuntu ) 
 
 
 49. pwd ( Menampilkan direktori kerja saat ini )
 
 
-50. clear ( membersihkan semua sistem di terminal )
+50. clear ( membersihkan / mengosongkan terminal )
 
 
 
